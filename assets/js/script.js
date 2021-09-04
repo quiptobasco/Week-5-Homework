@@ -44,7 +44,6 @@ plannerDays.forEach(function(currentHour) {
     $(".container").append(row);
 
     var field = $("<div>").text(`${currentHour.time}${currentHour.ampm}`).attr({ "class" : "col-md-2 hour" });
-
     var plan = $("<div>").attr({ "class" : "col-md-9 description p-0" });
     var data = $("<textarea>");
 
