@@ -87,7 +87,6 @@ function init() {
         saveEvents();
         showEvents();
     } else {
-        console.log("Something went wrong!!");
         return;
     }
 }
